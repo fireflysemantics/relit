@@ -1,6 +1,6 @@
 {
   "name": "relit",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -30,11 +30,17 @@
         "preset": {
           "name": "conventionalcommits",
           "type": [
-            { "type": "feat", "section": "Features"},
-            { "type": "fix", "section": "Bug Fixes"}
+            {
+              "type": "feat",
+              "section": "Features"
+            },
+            {
+              "type": "fix",
+              "section": "Bug Fixes"
+            }
           ]
         }
       }
-    } 
+    }
   }
 }
